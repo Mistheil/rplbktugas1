@@ -1,5 +1,12 @@
 // Function lainnya taro atas sini
+function search_data() {
+  let get_input = document.getElementById('input_text');
+  get_input = get_input.value;
+  data = data_aegis.filter(data_filtered => data_filtered.nim == get_input);
+  console.log(data);
 
+
+}
 
 
   var data_aegis = [
