@@ -8,3 +8,15 @@ if (data.length >= 1) {
       document.getElementById('tgl_lahir').innerHTML = "Tanggal Lahir :" + data[0].tanggal_lahir;
       document.getElementById('email').innerHTML = "Email :" + data[0].email;
       document.getElementById('hobi').innerHTML = "Hobi :" + data[0].hobi;
+    } else {
+      document.getElementById('header').innerHTML = "Data Tidak Ditemukan <br> Masukkan nim dengan benar!";
+      document.getElementById('nama_lengkap').innerHTML = "";
+      document.getElementById('nama_panggilan').innerHTML = "";
+      document.getElementById('nim').innerHTML = "";
+      document.getElementById('no_telepon').innerHTML = "";
+      document.getElementById('id_line').innerHTML = "";
+      document.getElementById('tgl_lahir').innerHTML = "";
+      document.getElementById('email').innerHTML = "";
+      document.getElementById('hobi').innerHTML = "";
+    }
+  }
