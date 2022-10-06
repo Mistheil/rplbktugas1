@@ -5,7 +5,7 @@ function search_data() {
   data = data_aegis.filter(data_filtered => data_filtered.nim == get_input);
   console.log(data);
 
-if (data.length >= 1) {
+if (data.length >= 1) { 
       document.getElementById('header').innerHTML = "Data Mahasiswa: "
       document.getElementById('nama_lengkap').innerHTML = "Nama Lengkap :" + data[0].nama_lengkap;
       document.getElementById('nama_panggilan').innerHTML = "Nama Panggilan :" + data[0].nama_panggilan;
